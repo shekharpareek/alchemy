@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+/* to make alligment  */
+.allignment-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/*common anchor tag class */
+.anchor-tag {
+    text-decoration: none;
+    text-decoration: none;
+    color: var(--main-color);
+
+}
+
+. {
+    margin-bottom: 16px;
+}
+
+:root {
+    --main-color: #020202;
+    --text-background-img: linear-gradient(287deg, #733ff1 39%, #36beff 95%);
+    --font-family: 'Public Sans', sans-serif;
+    --font-family-monteral: 'Montreal', sans-serif;
+
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header section Css */
+
+
+header {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    background-image: url("./img/header-wall.png");
+    background-position: 50% 50%;
+    height: auto;
+    background-size: cover;
+    font-weight: 700;
+}
+
+header>.announcment-bar {
+    background-color: black;
+    text-align: center;
+    color: white;
+    max-height: 50px;
+    font-size: 15px;
+    padding: 7px;
+}
+
+header>nav,
+.nav-item,
+.account-login {
+    margin: 10px;
+    text-align: center;
+}
+
+header nav {
+    justify-content: space-around !important;
+    padding: 16px;
+}
+
+.informatve-heading>h1 {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: var(--font-family-monteral);
+    letter-spacing: -2px;
+    line-height: 80px;
+
+}
+
+.logo {
+    max-width: 100%;
+    width: 5%;
+
+}
+
+.company-logo {
+    max-width: 100%;
+}
+
+.informatve-heading>p {
+    font-size: 17.5px;
+}
+
+.promo-btn {
+    padding: 10px;
+    width: 220px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    height: 49px;
+}
+
+nav>.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 700;
+}
+
+.user-btn-sign-in {
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.user-btn-sign-in:hover {
+    background-color: #fafafa;
+    font-weight: 700;
+}
+
+.user-btn-sign-up {
+    border: none;
+    padding: 10px 12px 10px 12px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    max-width: 100%;
+    width: 115px;
+    font-size: 14px;
+
+}
+
+.user-btn-sign-up>a {
+    color: white !important;
+}
+
+.user-btn-sign-up:hover {
+    border: 1px solid rgba(207, 217, 240, .2);
+    background-color: #f3f7ff;
+    box-shadow: 1px 1px 25px 0 rgb(54 190 255 / 30%);
+    color: #020202;
+
+}
+
+header .informatve-heading {
+    padding-top: 112px;
+}
+
+.brand-screen-ui {
+    margin-top: 70px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.brand-screen-card-mobile img {
+    max-width: 100%;
+}
+
+.brand-screen-card-video>video {
+    max-width: 100%;
+    border-radius: 19px;
+}
+
+.ui-1 {
+    width: 30%;
+
+}
+
+.ui-2 {
+    width: 25%;
+}
+
+.ui-2>video {
+    border-radius: 30px;
+}
+
+.ui-3 {
+    width: 30%;
+
+}
+
+.ui-4 {
+    width: 25%;
+}
+
+.large-width-wrapper {
+    max-width: 100%;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.brands-slider {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+
+.slide-item {
+    width: 64px;
+}
+
+.slide-item img {
+    max-width: 100%;
+    display: inline;
+}
