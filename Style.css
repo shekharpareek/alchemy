@@ -409,12 +409,14 @@ nav>.nav-item {
     width: 30%;
 }
 
+
 .ui-2 {
     width: 25%;
 }
 
+
 .ui-2>video {
-    border-radius: 30px;
+    border-radius: 27px;
 }
 
 .ui-3 {
@@ -1652,7 +1654,6 @@ footer {
     width: 340px;
     left: 54%;
 }
-
 
 .nav-item a:hover .drop-down .product-drop-down {
     display: flex;
