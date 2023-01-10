@@ -83,13 +83,13 @@ $(document).ready(function () {
 //     $(".drop-down").show();
 //     $(".product-menu").addClass("active-bg");
 //   });
-//   $(".product-menu").mouseleave(function () {
-//     var target = $(this).attr("id");
-//     $("[data-text=" + target + "]").hide();
-//     console.log("hover-end");
-//     $(".drop-down").hide();
-//     $(".product-menu").removeClass("active-bg");
-//   });
+//   // $(".product-menu").mouseleave(function () {
+//   //   var target = $(this).attr("id");
+//   //   $("[data-text=" + target + "]").hide();
+//   //   console.log("hover-end");
+//   //   $(".drop-down").hide();
+//   //   $(".product-menu").removeClass("active-bg");
+//   // });
 // });
 
 // tab2 NFT API Tools for everything section
