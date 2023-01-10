@@ -9,6 +9,13 @@ jQuery(document).ready(function ($) {
   });
 });
 
+$(".ul-pos-tab").click(function () {
+  $(this)
+    .addClass("ul-pos-tab-activate-tabs")
+    .siblings()
+    .removeClass("ul-pos-tab-activate-tabs");
+});
+
 // Slick slider
 
 $(document).ready(function ($) {
@@ -68,19 +75,19 @@ $(document).ready(function () {
 //------------------**** Nav Bar menu Drop down show on hover*****------------------//
 
 // $(function () {
-//   // $(".drop-down").hide();
+//   $(".drop-down").hide();
 //   $(".product-menu").hover(function () {
 //     var target = $(this).attr("id");
 //     $("[data-text=" + target + "]").show();
 //     console.log("hover ho rha ha bhai");
-//     // $(".drop-down").show();
+//     $(".drop-down").show();
 //     $(".product-menu").addClass("active-bg");
 //   });
 //   $(".product-menu").mouseleave(function () {
 //     var target = $(this).attr("id");
 //     $("[data-text=" + target + "]").hide();
 //     console.log("hover-end");
-//     // $(".drop-down").hide();
+//     $(".drop-down").hide();
 //     $(".product-menu").removeClass("active-bg");
 //   });
 // });
