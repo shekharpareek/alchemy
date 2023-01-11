@@ -23,6 +23,7 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css" />
         <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;400;700&display=swap"
             rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     </head>
 
     <body>
@@ -31,15 +32,396 @@
                 directory
             </div>
             <div class="allignment-wrapper">
+                <div class="mobile-view-nav-bar">
+                    <div class="nav-bar-top-menu">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="./Alchemy assets/Logo.svg" alt="" class="company-logo">
+                            </a>
+                        </div>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <div class="hamburger-menu">
+                                <i style="font-size:20px;" id="my-btn" class="fa-solid fa-bars"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="topnav">
+                        <div class="mobile-container">
+                            <div id="myLinks">
+                                <a id="tab-1" class="anchor-tag product-menu" href="#">products</a>
+                                <div class="product-drop-down">
+                                    <div class="drop-menu-item">
+                                        <div class="drop-menu-heading">PRODUCT SUIT</div>
+                                        <div class="drop-menu-items-list">
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <a href="./supernode.html">
+                                                        <h5>Supernode</h5>
+                                                    </a>
+                                                    <p>Supercharged web3 API</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <a href="./nft-api.html">
+                                                        <h5>NFT API</h5>
+                                                    </a>
+                                                    <p>Build all NFT functionality with ease</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <a href="./sdk.html">
+                                                        <h5>SDk</h5>
+                                                    </a>
+                                                    <p>Plug Alchemy into yout app</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <a href="./transact.html">
+                                                        <h5>Transact</h5>
+                                                    </a>
+                                                    <p>Free and automated allowlists</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <a href="./notify.html">
+                                                        <h5>Notify</h5>
+                                                    </a>
+                                                    <p>Add notifications to your app</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <a href="./enhanced-apis.html">
+                                                        <h5>Enhanced APIs</h5>
+                                                    </a>
+                                                    <p>New Functionlity to your app</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <a href="https://spearmint.xyz/">
+                                                        <h5>Spearmint</h5>
+                                                        <p>Free and automated allowlists</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="drop-menu-item">
+                                        <div class="drop-menu-heading">CHAINS</div>
+                                        <div class="drop-menu-items-list">
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>Ethereum</h5>
+                                                    <p>The default web3 blockchain</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>Polygon</h5>
+                                                    <p>Easy Ethereum scating</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>Selana</h5>
+                                                    <p>Powerful and fast for everyone</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>Arbitrum</h5>
+                                                    <p>Scale wihtout compromise</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>Optimism</h5>
+                                                    <p>New scaliblity stack</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>Astar</h5>
+                                                    <p>Connecting polkadot to all L1s</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>Starknet</h5>
+                                                    <p>Security with Zk-Rollups</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a id="tab-2" class="anchor-tag product-menu" href="">Use cases</a>
+                                <div data-text="tab-2" class="product-drop-down lft-position-usecase">
+                                    <div class="drop-menu-item">
+                                        <div class="drop-menu-heading">CASE STUDIES</div>
+                                        <div class="drop-menu-items-list">
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>Zapper</h5>
+                                                    <p>30% cost saving with Alchemy</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>Decentral Games</h5>
+                                                    <p>1K NFT sold out in under 2min</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>Zerion</h5>
+                                                    <p>7800 annual eng hours saved</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>Collab.land</h5>
+                                                    <p>3.5M+ wallets integrated </p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>Royal</h5>
+                                                    <p>33% of polygon capacity in single drop</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="drop-menu-item">
+                                        <div class="drop-menu-heading">FEATURED USE CASES</div>
+                                        <div class="drop-menu-items-list">
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>NFT</h5>
+                                                    <p>supporting all major NFT platforms</p>
+                                                </div>
+                                            </div>
+                                            <div class="list-content">
+                                                <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <h5>DeFi</h5>
+                                                    <p>Powering the majority of DeFi</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a id="tab-3" class="anchor-tag" href="">Developers</a>
+                                <div data-text="tab-3" class="product-drop-down justify-content developers-position">
+                                    <div class="drop-menu-item">
+                                        <div class="drop-menu-heading">DOCUMENTATION </div>
+                                        <div class="drop-menu-items-list">
+                                            <div class="d-flex">
+                                                <div class="list-content-doc-content">
+                                                    <div class="list-names">
+                                                        <div class="flex-wrapper">
+                                                            <img src="./img/get-started-tab-drop-down.svg">
+                                                            <h5>Get Started
+                                                            </h5>
+                                                        </div>
+                                                        <div class="align-content-wrapper">
+                                                            <p class="list-name-content">Developer Hub</p>
+                                                            <p class="list-name-content">Alchemy API overview</p>
+                                                            <p class="list-name-content">SDK Quickstart</p>
+                                                            <p class="list-name-content">NFT API Quickstart</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="list-content-doc-content">
+                                                    <div class="list-names">
+                                                        <div class="flex-wrapper">
+                                                            <img src="./img/learn-drop-down-menu-icon.svg">
+                                                            <h5>Learn</h5>
+                                                        </div>
+                                                        <div class="align-content-wrapper">
+                                                            <p class="list-name-content">Alchemy University</p>
+                                                            <p class="list-name-content">Alchemy Quickstart</p>
+                                                            <p class="list-name-content">Depoy First Smart Contract</p>
+                                                            <P class="list-name-content">Create on NFT Minter</P>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="list-content-doc-content">
+                                                <div class="list-names list-name-docs-content">
+                                                    <div class="flex-wrapper">
+                                                        <img src="./img/get-started-tab-drop-down.svg">
+                                                        <h5>Chain Docs
+                                                        </h5>
+                                                    </div>
+                                                    <div class="d-flex flex-override">
+                                                        <div class="align-content-wrapper">
+                                                            <p class="list-name-content">Ethereum</p>
+                                                            <p class="list-name-content">Polygon</p>
+                                                            <p class="list-name-content">Solana</p>
+                                                        </div>
+                                                        <div class="list-content-doc-content">
+                                                            <div class="align-content-wrapper">
+                                                                <p class="list-name-content">Arbitrum</p>
+                                                                <p class="list-name-content">Optimism</p>
+                                                                <p class="list-name-content">Astar</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="list-content-doc-content padding-40-top ">
+                                                <div class="">
+                                                    <div class="drop-menu-heading">RESOURCES</div>
+                                                    <div class="d-flex flex-override align-item">
+                                                        <div class="align-content-wrapper">
+                                                            <h5 class="list-name-content">DApp Store</h5>
+                                                            <h5 class="list-name-content">Guides</h5>
+                                                            <h5 class="list-name-content">Status</h5>
+                                                        </div>
+                                                        <div class="list-content-doc-content">
+                                                            <div class="align-content-wrapper">
+                                                                <h5 class="list-name-content">Goerli Faucet</h5>
+                                                                <h5 class="list-name-content">Discover</h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a id="tab-4" class="anchor-tag" href="">Company</a>
+                                <div data-text="tab-4" class="nav-menu_company-component product-drop-down">
+                                    <div class="d-flex flex-gap-35">
+                                        <div class="flex-content">
+                                            <div class="flex-wrapper">
+                                                <div class="list-icon"><img src="./img/company-component-1.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <p>BLOG</p>
+                                                </div>
+                                            </div>
+                                            <div class="flex-wrapper">
+                                                <div class="list-icon"><img src="./img/company-component-2.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <p>NEWSROOM</p>
+                                                </div>
+                                            </div>
+                                            <div class="flex-wrapper">
+                                                <div class="list-icon"><img src="./img/company-component-3.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <p>NEWSLETTER</p>
+                                                </div>
+                                            </div>
+                                            <div class="flex-wrapper">
+                                                <div class="list-icon"><img src="./img/company-component-4.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <p>EVENTS</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex-content">
+                                            <div class="flex-wrapper">
+                                                <div class="list-icon"><img src="./img/company-component-5.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <p>ABOUT</p>
+                                                </div>
+                                            </div>
+                                            <div class="flex-wrapper">
+                                                <div class="list-icon"><img src="./img/company-component-6.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <p>CAREERS</p>
+                                                </div>
+                                            </div>
+                                            <div class="flex-wrapper">
+                                                <div class="list-icon"><img src="./img/company-component-7.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <p>Get in touch</p>
+                                                </div>
+                                            </div>
+                                            <div class="flex-wrapper">
+                                                <div class="list-icon"><img src="./img/company-component-7.svg">
+                                                </div>
+                                                <div class="list-names">
+                                                    <p>Ventures</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="anchor-tag" href="">Pricing</a>
+                                <div class="account-login-mobile">
+                                    <button class="user-btn-sign-in"><a class="anchor-tag"
+                                            href="./sign-in.html">sign-in</a></button>
+                                    <button class="user-btn-sign-up"><a class="anchor-tag "
+                                            href="./sign-in.html">sign-up</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
                 <nav class="nav-bar d-flex">
-                    <div class="logo">
+                    <div class="logo alchemy-comp-logo">
                         <a href="./index.html">
                             <img src="./Alchemy assets/Logo.svg" alt="" class="company-logo">
                         </a>
                     </div>
                     <div class="nav-item">
-                        <a id="tab-1" class="anchor-tag product-menu-1" href="#">products</a>
-                        <div data-text="tab-1" class="drop-down" id="drop-down-1">
+                        <a id="tab-1" class="anchor-tag product-menu" href="#">products</a>
+                        <div data-text="tab-1" class="drop-down">
                             <div class="product-drop-down">
                                 <div class="drop-menu-item">
                                     <div class="drop-menu-heading">PRODUCT SUIT</div>
@@ -172,151 +554,149 @@
                         <a id="tab-2" class="anchor-tag product-menu" href="">Use cases</a>
                         <a id="tab-3" class="anchor-tag" href="">Developers</a>
                         <a id="tab-4" class="anchor-tag" href="">Company</a>
-                        <a id="tab-5" class="anchor-tag" href="">Pricing</a>
+                        <a class="anchor-tag" href="">Pricing</a>
                     </div>
                     <!-- //product drop-down on hover -->
                     <div class="product-drop-down-tabs-content">
-                        <div class="">
-                            <div data-text="tab-2" class="product-drop-down lft-position-usecase">
-                                <div class="drop-menu-item">
-                                    <div class="drop-menu-heading">CASE STUDIES</div>
-                                    <div class="drop-menu-items-list">
-                                        <div class="list-content">
-                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <h5>Zapper</h5>
-                                                <p>30% cost saving with Alchemy</p>
-                                            </div>
+                        <div data-text="tab-2" class="product-drop-down lft-position-usecase">
+                            <div class="drop-menu-item">
+                                <div class="drop-menu-heading">CASE STUDIES</div>
+                                <div class="drop-menu-items-list">
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
                                         </div>
-                                        <div class="list-content">
-                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <h5>Decentral Games</h5>
-                                                <p>1K NFT sold out in under 2min</p>
-                                            </div>
-                                        </div>
-                                        <div class="list-content">
-                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <h5>Zerion</h5>
-                                                <p>7800 annual eng hours saved</p>
-                                            </div>
-                                        </div>
-                                        <div class="list-content">
-                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <h5>Collab.land</h5>
-                                                <p>3.5M+ wallets integrated </p>
-                                            </div>
-                                        </div>
-                                        <div class="list-content">
-                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <h5>Royal</h5>
-                                                <p>33% of polygon capacity in single drop</p>
-                                            </div>
+                                        <div class="list-names">
+                                            <h5>Zapper</h5>
+                                            <p>30% cost saving with Alchemy</p>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="drop-menu-item">
-                                    <div class="drop-menu-heading">FEATURED USE CASES</div>
-                                    <div class="drop-menu-items-list">
-                                        <div class="list-content">
-                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <h5>NFT</h5>
-                                                <p>supporting all major NFT platforms</p>
-                                            </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
                                         </div>
-                                        <div class="list-content">
-                                            <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <h5>DeFi</h5>
-                                                <p>Powering the majority of DeFi</p>
-                                            </div>
+                                        <div class="list-names">
+                                            <h5>Decentral Games</h5>
+                                            <p>1K NFT sold out in under 2min</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Zerion</h5>
+                                            <p>7800 annual eng hours saved</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Collab.land</h5>
+                                            <p>3.5M+ wallets integrated </p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>Royal</h5>
+                                            <p>33% of polygon capacity in single drop</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div data-text="tab-3" class="product-drop-down justify-content developers-position">
-                                <div class="drop-menu-item">
-                                    <div class="drop-menu-heading">DOCUMENTATION </div>
-                                    <div class="drop-menu-items-list">
-                                        <div class="d-flex">
-                                            <div class="list-content-doc-content">
-                                                <div class="list-names">
-                                                    <div class="flex-wrapper">
-                                                        <img src="./img/get-started-tab-drop-down.svg">
-                                                        <h5>Get Started
-                                                        </h5>
-                                                    </div>
-                                                    <div class="align-content-wrapper">
-                                                        <p class="list-name-content">Developer Hub</p>
-                                                        <p class="list-name-content">Alchemy API overview</p>
-                                                        <p class="list-name-content">SDK Quickstart</p>
-                                                        <p class="list-name-content">NFT API Quickstart</p>
-                                                    </div>
+                            <div class="drop-menu-item">
+                                <div class="drop-menu-heading">FEATURED USE CASES</div>
+                                <div class="drop-menu-items-list">
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>NFT</h5>
+                                            <p>supporting all major NFT platforms</p>
+                                        </div>
+                                    </div>
+                                    <div class="list-content">
+                                        <div class="list-icon"><img src="./img/Product-icon-nav-list-item.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <h5>DeFi</h5>
+                                            <p>Powering the majority of DeFi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-text="tab-3" class="product-drop-down justify-content developers-position">
+                            <div class="drop-menu-item">
+                                <div class="drop-menu-heading">DOCUMENTATION </div>
+                                <div class="drop-menu-items-list">
+                                    <div class="d-flex">
+                                        <div class="list-content-doc-content">
+                                            <div class="list-names">
+                                                <div class="flex-wrapper">
+                                                    <img src="./img/get-started-tab-drop-down.svg">
+                                                    <h5>Get Started
+                                                    </h5>
                                                 </div>
-                                            </div>
-                                            <div class="list-content-doc-content">
-                                                <div class="list-names">
-                                                    <div class="flex-wrapper">
-                                                        <img src="./img/learn-drop-down-menu-icon.svg">
-                                                        <h5>Learn</h5>
-                                                    </div>
-                                                    <div class="align-content-wrapper">
-                                                        <p class="list-name-content">Alchemy University</p>
-                                                        <p class="list-name-content">Alchemy Quickstart</p>
-                                                        <p class="list-name-content">Depoy First Smart Contract</p>
-                                                        <P class="list-name-content">Create on NFT Minter</P>
-                                                    </div>
+                                                <div class="align-content-wrapper">
+                                                    <p class="list-name-content">Developer Hub</p>
+                                                    <p class="list-name-content">Alchemy API overview</p>
+                                                    <p class="list-name-content">SDK Quickstart</p>
+                                                    <p class="list-name-content">NFT API Quickstart</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="list-content-doc-content">
-                                            <div class="list-names list-name-docs-content">
+                                            <div class="list-names">
                                                 <div class="flex-wrapper">
-                                                    <img src="./img/get-started-tab-drop-down.svg">
-                                                    <h5>Chain Docs
-                                                    </h5>
+                                                    <img src="./img/learn-drop-down-menu-icon.svg">
+                                                    <h5>Learn</h5>
                                                 </div>
-                                                <div class="d-flex flex-override">
+                                                <div class="align-content-wrapper">
+                                                    <p class="list-name-content">Alchemy University</p>
+                                                    <p class="list-name-content">Alchemy Quickstart</p>
+                                                    <p class="list-name-content">Depoy First Smart Contract</p>
+                                                    <P class="list-name-content">Create on NFT Minter</P>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-content-doc-content">
+                                        <div class="list-names list-name-docs-content">
+                                            <div class="flex-wrapper">
+                                                <img src="./img/get-started-tab-drop-down.svg">
+                                                <h5>Chain Docs
+                                                </h5>
+                                            </div>
+                                            <div class="d-flex flex-override">
+                                                <div class="align-content-wrapper">
+                                                    <p class="list-name-content">Ethereum</p>
+                                                    <p class="list-name-content">Polygon</p>
+                                                    <p class="list-name-content">Solana</p>
+                                                </div>
+                                                <div class="list-content-doc-content">
                                                     <div class="align-content-wrapper">
-                                                        <p class="list-name-content">Ethereum</p>
-                                                        <p class="list-name-content">Polygon</p>
-                                                        <p class="list-name-content">Solana</p>
-                                                    </div>
-                                                    <div class="list-content-doc-content">
-                                                        <div class="align-content-wrapper">
-                                                            <p class="list-name-content">Arbitrum</p>
-                                                            <p class="list-name-content">Optimism</p>
-                                                            <p class="list-name-content">Astar</p>
-                                                        </div>
+                                                        <p class="list-name-content">Arbitrum</p>
+                                                        <p class="list-name-content">Optimism</p>
+                                                        <p class="list-name-content">Astar</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="list-content-doc-content padding-40-top ">
-                                            <div class="">
-                                                <div class="drop-menu-heading">RESOURCES</div>
-                                                <div class="d-flex flex-override align-item">
+                                    </div>
+                                    <div class="list-content-doc-content padding-40-top ">
+                                        <div class="">
+                                            <div class="drop-menu-heading">RESOURCES</div>
+                                            <div class="d-flex flex-override align-item">
+                                                <div class="align-content-wrapper">
+                                                    <h5 class="list-name-content">DApp Store</h5>
+                                                    <h5 class="list-name-content">Guides</h5>
+                                                    <h5 class="list-name-content">Status</h5>
+                                                </div>
+                                                <div class="list-content-doc-content">
                                                     <div class="align-content-wrapper">
-                                                        <h5 class="list-name-content">DApp Store</h5>
-                                                        <h5 class="list-name-content">Guides</h5>
-                                                        <h5 class="list-name-content">Status</h5>
-                                                    </div>
-                                                    <div class="list-content-doc-content">
-                                                        <div class="align-content-wrapper">
-                                                            <h5 class="list-name-content">Goerli Faucet</h5>
-                                                            <h5 class="list-name-content">Discover</h5>
-                                                        </div>
+                                                        <h5 class="list-name-content">Goerli Faucet</h5>
+                                                        <h5 class="list-name-content">Discover</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -324,75 +704,78 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="tab-4" class="nav-menu_company-component product-drop-down">
-                                <div class="d-flex flex-gap-35">
-                                    <div class="flex-content">
-                                        <div class="flex-wrapper">
-                                            <div class="list-icon"><img src="./img/company-component-1.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <p>BLOG</p>
-                                            </div>
+                        </div>
+                        <div data-text="tab-4" class="nav-menu_company-component product-drop-down">
+                            <div class="d-flex flex-gap-35">
+                                <div class="flex-content">
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-1.svg">
                                         </div>
-                                        <div class="flex-wrapper">
-                                            <div class="list-icon"><img src="./img/company-component-2.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <p>NEWSROOM</p>
-                                            </div>
-                                        </div>
-                                        <div class="flex-wrapper">
-                                            <div class="list-icon"><img src="./img/company-component-3.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <p>NEWSLETTER</p>
-                                            </div>
-                                        </div>
-                                        <div class="flex-wrapper">
-                                            <div class="list-icon"><img src="./img/company-component-4.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <p>EVENTS</p>
-                                            </div>
+                                        <div class="list-names">
+                                            <p>BLOG</p>
                                         </div>
                                     </div>
-                                    <div class="flex-content">
-                                        <div class="flex-wrapper">
-                                            <div class="list-icon"><img src="./img/company-component-5.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <p>ABOUT</p>
-                                            </div>
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-2.svg">
                                         </div>
-                                        <div class="flex-wrapper">
-                                            <div class="list-icon"><img src="./img/company-component-6.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <p>CAREERS</p>
-                                            </div>
+                                        <div class="list-names">
+                                            <p>NEWSROOM</p>
                                         </div>
-                                        <div class="flex-wrapper">
-                                            <div class="list-icon"><img src="./img/company-component-7.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <p>Get in touch</p>
-                                            </div>
+                                    </div>
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-3.svg">
                                         </div>
-                                        <div class="flex-wrapper">
-                                            <div class="list-icon"><img src="./img/company-component-7.svg">
-                                            </div>
-                                            <div class="list-names">
-                                                <p>Ventures</p>
-                                            </div>
+                                        <div class="list-names">
+                                            <p>NEWSLETTER</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-4.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>EVENTS</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex-content">
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-5.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>ABOUT</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-6.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>CAREERS</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-7.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>Get in touch</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex-wrapper">
+                                        <div class="list-icon"><img src="./img/company-component-7.svg">
+                                        </div>
+                                        <div class="list-names">
+                                            <p>Ventures</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="account-login">
-                            <button class="user-btn-sign-in"><a class="anchor-tag" href="">sign-in</a></button>
-                            <button class="user-btn-sign-up"><a class="anchor-tag " href="">sign-up</a></button>
+                            <button class="user-btn-sign-in"><a class="anchor-tag"
+                                    href="./sign-in.html">sign-in</a></button>
+                            <button class="user-btn-sign-up"><a class="anchor-tag "
+                                    href="./sign-in.html">sign-up</a></button>
                         </div>
+                    </div>
                 </nav>
                 <div class="informatve-heading ">
                     <h1 class="largest-heading ">The Web3</h1>
@@ -473,7 +856,8 @@
                     <p class="beauty-heading">CONNECT AND BUILD</p>
                     <h2 class="hero-lg-heading">The easy way to build and scale</h2>
                     <p class="hero-sub-heading ">Instantly connect your dApp to the blockchain and scale with your
-                        users.</p>
+                        users.
+                    </p>
                     <div class="left-background-img-upper">
                         <img src="./Alchemy assets/Backgrouund-img/background-2_med-cube.svg">
                     </div>
@@ -484,13 +868,15 @@
                     </div>
                 </div>
             </div>
-            <div class="padding-top-250 "></div> <!--For top padding -->
+            <div class="padding-top-250 "></div>
+            <!--For top padding -->
             <!-- section Alchemy Super Node -->
             <div class="designer-developer-banner Alchemy-super-node-section large-width-wrapper">
                 <p class="beauty-heading">DESIGNED FOR DEVELOPERS</p>
                 <h2 class="hero-lg-heading">The complete developer platform</h2>
                 <p class="hero-sub-heading ">The infrastructure, products and tools to get started with one line of
-                    code.</p>
+                    code.
+                </p>
                 <div class="text-with-img">
 
                     <div class="text-container">
@@ -511,9 +897,9 @@
         <div class="section-possiblities">
             <div class="large-width-wrapper">
                 <div class="possiblities-components ">
-                    <p style="text-align: left;" class="beauty-heading">UNLIMITED POSSIBILITIES</p>
-                    <h2 style="text-align: left; letter-spacing: -4px;" class="hero-lg-heading">Get started with
-                        the Alchemy SDK</h2>
+                    <p style="text-align: left;" class="beauty-heading mobile-view-text-wdt">UNLIMITED POSSIBILITIES</p>
+                    <h2 style="text-align: left; letter-spacing: -4px;" class="hero-lg-heading mobile-view-text-wdt">Get
+                        started with the Alchemy SDK</h2>
                     <div class="possiblites-tab-menu tabs-menu margin-80-bottom">
                         <div id="tab-1" class="tabs ul-pos-tab">NFTs</div>
                         <div id="tab-2" class="tabs large-text ul-pos-tab">DeFi<span>Protocols</span>
@@ -522,7 +908,7 @@
                         <div id="tab-4" class="large-text tabs ul-pos-tab">Data<span>analytics</span></div>
                         <div id="tab-5" class="tabs ul-pos-tab">DAOs</div>
                     </div>
-                    <div class="possiblities-tab-content">
+                    <div class="possiblities-tab-content mob-carousel">
                         <div data-section="tab-1" class="nft-tab-content">
                             <div class="tab-nft ">
                                 <div>
@@ -689,16 +1075,16 @@
                             Developer Tools
                         </h2>
                         <!-- tab section -->
-                        <div class="tab_change-card-container">
+                        <div class="tab_change-card-container cards-slick">
                             <div class="tabs-change-card">
+
                                 <h4 id="tab-1" class="click-tab">Explorer.</h4>
                                 <div data-tab="tab-1" class="developer-tool-Sa-inner-content show-content first">
                                     <h4 class="tab-click">Explorer.</h4>
                                     <p>
-                                        Search through millions of historical requests
-                                        to identify
-                                        error patterns and optimize
-                                        performance.</p>
+                                        Search through millions of historical requests to identify error patterns and
+                                        optimize performance.
+                                    </p>
                                 </div>
                             </div>
                             <div class="tabs-change-card developer-tool-tab-active">
@@ -715,10 +1101,9 @@
                                 <div data-tab="tab-3" class="developer-tool-Sa-inner-content show-content">
                                     <h4 class="tab-click">Composer</h4>
                                     <p>
-                                        Search through millions of historical requests
-                                        to identify
-                                        error patterns and optimize
-                                        performance.</p>
+                                        Search through millions of historical requests to identify error patterns and
+                                        optimize performance.
+                                    </p>
                                 </div>
                             </div>
                             <div class="tabs-change-card  menu-items">
@@ -726,10 +1111,9 @@
                                 <div data-tab="tab-4" class="developer-tool-Sa-inner-content show-content">
                                     <h4 class="tab-click">Mempool Visualizer</h4>
                                     <p>
-                                        Search through millions of historical requests
-                                        to identify
-                                        error patterns and optimize
-                                        performance.</p>
+                                        Search through millions of historical requests to identify error patterns and
+                                        optimize performance.
+                                    </p>
                                 </div>
                             </div>
                             <div class="tabs-change-card  menu-items">
@@ -737,10 +1121,9 @@
                                 <div data-tab="tab-5" class="developer-tool-Sa-inner-content show-content">
                                     <h4 class="tab-click">Request Analytics</h4>
                                     <p>
-                                        Search through millions of historical requests
-                                        to identify
-                                        error patterns and optimize
-                                        performance.</p>
+                                        Search through millions of historical requests to identify error patterns and
+                                        optimize performance.
+                                    </p>
                                 </div>
                             </div>
                             <div class="tabs-change-card  menu-items">
@@ -748,10 +1131,9 @@
                                 <div data-tab="tab-6" class="developer-tool-Sa-inner-content show-content">
                                     <h4 class="tab-click">Usage Statistics</h4>
                                     <p>
-                                        Search through millions of historical requests
-                                        to identify
-                                        error patterns and optimize
-                                        performance.</p>
+                                        Search through millions of historical requests to identify error patterns and
+                                        optimize performance.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -782,25 +1164,21 @@
         </div>
         <section class="powering-global">
             <p class="beauty-heading">LEADING THE INDUSTRY</p>
-            <h2 class="hero-lg-heading font-48 common-margin ">Powering global web3 growth</h2>
+            <h2 class="hero-lg-heading font-48 common-margin font-27 ">Powering global web3 growth</h2>
             <div class="power-container">
                 <div class="global-web3-cards-container">
                     <div class="global-web3-card">
-                        <h1 class="card-fancy-heading">$
-                            100
-                            + Billion</h1>
+                        <h1 class="card-fancy-heading">$ 100 + Billion</h1>
                         <p class="card-sub-heading">On-chain transaction volume</p>
                     </div>
                     <div class="global-web3-card">
-                        <h1 class="card-fancy-heading">$
-                            1.5
-                            Billion</h1>
+                        <h1 class="card-fancy-heading">$ 1.5 Billion
+                        </h1>
                         <p class="card-sub-heading">Royalties to NFT Creators</p>
                     </div>
                     <div class="global-web3-card">
-                        <h1 class="card-fancy-heading">10
-                            +
-                            Million</h1>
+                        <h1 class="card-fancy-heading">10 + Million
+                        </h1>
                         <p class="card-sub-heading">End Users</p>
                     </div>
 
@@ -820,8 +1198,7 @@
                         <p class="fancy-txt">26k+ total users</p>
                     </div>
                     <p class="testimonal-quotes margin-60-bottom">"Alchemy never goes down, and their uptime is super
-                        consistent. Their
-                        platform works perfectly for us."</p>
+                        consistent. Their platform works perfectly for us."</p>
                     <div class="img-wth-users-info">
                         <div class="user-img-container">
                             <img src="./img/testimonalimg.jpeg">
@@ -843,8 +1220,8 @@
                         <p class="fancy-txt">$400k saved</p>
                     </div>
                     <p class="testimonal-quotes">"Alchemy has a great reputation and simple APIs. They allow us to
-                        deliver a world-class experience for our users, and
-                        their team and technology have been great to work with."</p>
+                        deliver a world-class experience for our users, and their team and technology have been great to
+                        work with."</p>
                     <div class="img-wth-users-info">
                         <div class="user-img-container">
                             <img src="./img/testimonalimg-2.jpeg">
@@ -866,8 +1243,7 @@
                         <p class="fancy-txt">95x Growth</p>
                     </div>
                     <p class="testimonal-quotes">"Alchemy’s comprehensive developer platform - from infrastructure and
-                        tooling to enhanced APIs and monitoring systems -
-                        is best in class."</p>
+                        tooling to enhanced APIs and monitoring systems - is best in class."</p>
                     <div class="img-wth-users-info">
                         <div class="user-img-container">
                             <img src="./img/testimonalimg-3.jpeg">
@@ -888,11 +1264,8 @@
                         </div>
                         <p class="fancy-txt">$170B+ trading volume</p>
                     </div>
-                    <p class="testimonal-quotes margin-45-bottom">"Alchemy's
-                        technology and
-                        team are best in class. The
-                        team wins with
-                        response times, reliability and accurate data."</p>
+                    <p class="testimonal-quotes margin-45-bottom">"Alchemy's technology and team are best in class. The
+                        team wins with response times, reliability and accurate data."</p>
                     <div class="img-wth-users-info">
                         <div class="user-img-container">
                             <img src="./img/testimonalimg-4.jpeg">
@@ -914,9 +1287,7 @@
                         <p class="fancy-txt">1K+ NFTs Sold in <span>></span> 2Mins</p>
                     </div>
                     <p style="margin-bottom: 57px!important;" class="testimonal-quotes">"Not only does Alchemy ensure 0%
-                        rate
-                        limiting for our NFT drops, but
-                        their infra handles the load seamlessly."</p>
+                        rate limiting for our NFT drops, but their infra handles the load seamlessly."</p>
                     <div class="img-wth-users-info">
                         <div class="user-img-container">
                             <img src="./img/testimonalimg-5.jpeg">
@@ -938,9 +1309,7 @@
                         <p class="fancy-txt">$1.5B+ trading volume</p>
                     </div>
                     <p style="margin-bottom: 30px!important;" class="testimonal-quotes">“Alchemy has helped us save the
-                        equivalent
-                        of 3 full-time engineers,
-                        who otherwise would have been heads down on infra
+                        equivalent of 3 full-time engineers, who otherwise would have been heads down on infra
                         maintenance, 24/7.”</p>
                     <div class="img-wth-users-info">
                         <div class="user-img-container">
@@ -963,9 +1332,8 @@
                         <p class="fancy-txt">3.5M+ wallets</p>
                     </div>
                     <p class="testimonal-quotes margin-65-bottom">"Reliable and scalable infrastructure, so that we can
-                        stay up when our
-                        customers need us most. Alchemy is the GOAT
-                        here.”</p>
+                        stay up when our customers need us most. Alchemy is the GOAT here.”
+                    </p>
                     <div class="img-wth-users-info">
                         <div class="user-img-container">
                             <img src="./img/testimonalimg-7.jpeg">
@@ -987,9 +1355,7 @@
                         <p class="fancy-txt">40k+ requests / min</p>
                     </div>
                     <p class="testimonal-quotes margin-45-bottom">"Benchmarking results are clear: Alchemy is the most
-                        reliable and
-                        stable infrastructure. This translates to significant
-                        cost savings for us."</p>
+                        reliable and stable infrastructure. This translates to significant cost savings for us."</p>
                     <div class="img-wth-users-info">
                         <div class="user-img-container">
                             <img src="./img/testimonalimg-8.jpeg">
@@ -1148,8 +1514,8 @@
                                     </div>
                                     <div class="card-banner-content">
                                         <p class="News-room-card-content">Crypto start-up Alchemy tops $10 billion
-                                            valuation amid blockchain funding
-                                            frenzy</p>
+                                            valuation amid blockchain funding frenzy
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="case-studies-grid-card">
@@ -1174,7 +1540,8 @@
                                     </div>
                                     <div class="card-banner-content">
                                         <p class="News-room-card-content">Icebreakers with the co-founders of Web3 giant
-                                            Alchemy</p>
+                                            Alchemy
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="case-studies-grid-card">
@@ -1200,7 +1567,8 @@
                                     </div>
                                     <div class="card-banner-content">
                                         <p class="News-room-card-content">Alchemy Eyeing Expansion After $200 Million
-                                            Raise</p>
+                                            Raise
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -1230,8 +1598,7 @@
                                                             </div> -->
                                     <div class="card-banner-content">
                                         <p class="News-room-card-content">How To Write a Solidity Smart Contract! -
-                                            Hello
-                                            World Pt 1</p>
+                                            Hello World Pt 1</p>
                                     </div>
                                 </div>
                                 <div class="case-studies-grid-card">
@@ -1393,8 +1760,7 @@
         <div class="large-width-wrapper">
             <div class="newsletter_component">
                 <h2 class="heading-large">Don't miss an update</h2>
-                <p class="news-letter-text">Sign up for our newsletter to get alpha, key insights, and
-                    killer resources.
+                <p class="news-letter-text">Sign up for our newsletter to get alpha, key insights, and killer resources.
                 </p>
                 <form>
                     <input type="email" class="newsletter-form_text-field" maxlength="256" name="email"
@@ -1407,8 +1773,8 @@
             <div class="large-width-wrapper">
                 <div class="Fortune-main-heading">
                     <p class="fancy-txt">GET STARTED</p>
-                    <h2 class="heading-fortune">Powering everything from startups to Fortune
-                        500</h2>
+                    <h2 class="heading-fortune">Powering everything from startups to Fortune 500
+                    </h2>
                 </div>
             </div>
         </div>
@@ -1485,8 +1851,7 @@
                 <h2 class="largest-heading  text-color-white">Build web3 with</h2>
                 <h2 class="largest-heading  text-color-white">Alchemy</h2>
                 <P class="cta-secondary-heading">Alchemy combines the most powerful web3 developer products and tools
-                    with resources, community and
-                    legendary support.</P>
+                    with resources, community and legendary support.</P>
                 <button class="cta-section-btn">Get started for free</button>
             </div>
         </section>
@@ -1504,8 +1869,7 @@
                         <div class="newsletter-footer">
                             <p class="newsletter-text margin-11">Supercharge your inbox</p>
                             <p style="font-size: 13px!important;" class="footer-small-heading margin-11">Sign up for our
-                                developer
-                                newsletter:
+                                developer newsletter:
                             </p>
                             <form class="news-letter-form">
                                 <input type="email" style="width:250px;" class="newsletter-form_text-field" name="email"
@@ -1583,7 +1947,9 @@
             </div>
             <div class="lower-bottom-footer large-width-wrapper">
                 <p class="footer-small-heading margin-11">©
-                    <script>document.write(new Date().getFullYear())</script> Alchemy Insights, Inc
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> Alchemy Insights, Inc
                 </p>
                 <div class="footer-bottom_right-socialicon">
                     <div class="footer-social-icon-container">

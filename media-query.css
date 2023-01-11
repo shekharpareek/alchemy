@@ -1,3 +1,285 @@
-.product-drop-down {
-    display: none;
+@media (max-width: 600px) and (min-width:310px) {
+    .logo {
+        width: 90px;
+    }
+
+    .product-drop-down {
+        display: flex;
+        position: unset;
+        box-shadow: unset;
+        padding: 31px 21px 40px 23px;
+    }
+
+    .nav-item {
+        display: none !important;
+    }
+
+    .largest-heading {
+        font-size: 45px;
+    }
+
+    .promo-btn-wrapper {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .hero-lg-heading {
+        font-size: 18px;
+        letter-spacing: 0px !important;
+    }
+
+    .hero-sub-heading {
+        font-size: 19px !important;
+        margin-bottom: ;
+    }
+
+    .video-container>video {
+        width: 300px;
+    }
+
+    .mobile-image-banner {
+        display: block;
+    }
+
+    .img-container-bg {
+        width: unset;
+    }
+
+    .mobile-view-text-wdt {
+        width: 220px;
+        letter-spacing: 0;
+    }
+
+    .possiblites-tab-menu>div {
+        padding: 12px 17px 12px 11px;
+        margin-left: -2px;
+        margin-right: 12px;
+        font-size: 7px;
+    }
+
+    .possiblites-tab-menu {
+        margin-top: 60px;
+    }
+
+
+    .tab-nft div>h2 {
+        font-size: 23px;
+    }
+
+    .tab-nft div>p {
+        font-size: 11px;
+    }
+
+    .tab-nft-data-img>img {
+        width: 174px;
+    }
+
+    .snippet-code {
+        width: 161px !important;
+        font-size: 8px;
+        padding: 9px;
+        top: 75%;
+        left: 125%;
+    }
+
+    .possiblities-components {
+        width: 40%;
+        padding: 88px 0 87px 14px;
+    }
+
+    .get-started-btn {
+        font-size: 8px;
+    }
+
+    .text-with-img>.text-container {
+        text-align: -webkit-center;
+        margin-top: 60px;
+    }
+
+    .text-with-img {
+        flex-wrap: wrap;
+    }
+
+    .text-container>h2 {
+        text-align: center !important;
+    }
+
+    .tabs-change-card {
+        position: relative;
+        padding: 41px 0px 45px 24px;
+    }
+
+    .global-web3-cards-container {
+        flex-wrap: wrap;
+    }
+
+    .font-27 {
+        font-size: 27px !important;
+    }
+
+    .testimonal-quotes {
+        font-size: 15px;
+        width: 337px;
+    }
+
+    .slick-slide {
+        margin-left: 16px;
+        width: 404px;
+    }
+
+    .half-power-global-background {
+        display: none;
+    }
+
+    .developer-tool-Sa-inner-content {
+        bottom: -17px;
+        right: 2%;
+    }
+
+    .newsletter-form_text-field {
+        width: 240px;
+        max-width: 100%;
+    }
+
+    .heading-large {
+        font-size: 34px;
+    }
+
+    .news-letter-text {
+        font-size: 16px;
+    }
+
+    .heading-fortune {
+        width: 457px;
+        font-size: 30px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .fortune-card {
+        max-width: 100%;
+    }
+
+    .buyit-small-logo-container>img {
+        max-width: 100%;
+    }
+
+    .card-grid-container {
+        grid-template-columns: 374px;
+    }
+
+    .footer-flex-box {
+        flex-wrap: wrap;
+    }
+
+    .footer-right {
+        flex-wrap: wrap;
+    }
+
+    .lower-bottom-footer {
+        flex-wrap: wrap;
+    }
+
+    .footer-bottom-right-btn {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 7px;
+        padding: 10px;
+    }
+
+    .drop-down-menu {
+        padding: 13px 14px 16px 14px;
+        border-radius: 12px;
+        margin-top: 6px;
+        background-color: #fff;
+        position: absolute;
+        z-index: 99;
+        width: 164px;
+        right: 0%;
+    }
+
+    .drop-down-menu>li {
+        list-style: none;
+        padding: 9px;
+    }
+
+    .large-width-wrapper {
+        max-width: 100%;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .informatve-heading>p {
+        font-size: 15.5px;
+    }
+
+    .informatve-heading {
+        padding-top: 12px;
+    }
+
+    .gradient-background {
+        width: 320px;
+        height: 210px;
+        max-width: 100%;
+    }
+
+    .card-banner-wrapper {
+        width: 370px;
+        max-width: 100%;
+    }
+
+    .fortune_badge {
+        left: 20%;
+    }
+
+    .mobile-view-nav-bar {
+        display: block;
+    }
+
+    .account-login {
+        display: none;
+    }
+
+    .alchemy-comp-logo {
+        display: none;
+    }
+
+    .account-login-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 0px;
+    }
+
+
+    .user-btn-sign-in,
+    .user-btn-sign-up {
+        border: 1px solid white;
+        padding: 3px;
+        color: black;
+        border-radius: 8px;
+        background-color: transparent;
+    }
+
+    .anchor-tag {
+        margin-left: 21px;
+    }
+
+    .product-drop-down-tabs-content {
+        display: none;
+    }
+
+    .list-name-docs-content {
+        width: 324px;
+    }
+
+    .list-name-content {
+        font-size: 12px;
+    }
+
+    .drop-down-header {
+        padding: 8px 10px 5px 10px;
+
+    }
 }

@@ -27,6 +27,19 @@ $(document).ready(function ($) {
     speed: 2000,
     pauseOnHover: false,
     cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 5,
+          autoplay: true,
+          autoplaySpeed: 0,
+          speed: 2000,
+          pauseOnHover: false,
+          cssEase: "linear",
+        },
+      },
+    ],
   });
 });
 // Testimonal slider
@@ -40,6 +53,15 @@ $(document).ready(function ($) {
     arrows: true,
     prevArrow: $(".prev"),
     nextArrow: $(".next"),
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   });
 });
 
@@ -76,20 +98,12 @@ $(document).ready(function () {
 
 // $(function () {
 //   $(".drop-down").hide();
-//   $(".product-menu").hover(function () {
+//   $(".nav-item a").hover(function () {
 //     var target = $(this).attr("id");
 //     $("[data-text=" + target + "]").show();
 //     console.log("hover ho rha ha bhai");
 //     $(".drop-down").show();
-//     $(".product-menu").addClass("active-bg");
 //   });
-//   // $(".product-menu").mouseleave(function () {
-//   //   var target = $(this).attr("id");
-//   //   $("[data-text=" + target + "]").hide();
-//   //   console.log("hover-end");
-//   //   $(".drop-down").hide();
-//   //   $(".product-menu").removeClass("active-bg");
-//   // });
 // });
 
 // tab2 NFT API Tools for everything section
@@ -110,6 +124,15 @@ $(document).ready(function ($) {
     var target = $(this).attr("id");
     $("[data-tab=" + target + "]").show();
   });
+  // For nav bar Hamburger-menu
+  const hamburgerbtnContainer = document.querySelector(".hamburger-menu");
+  const hamburgBtn = document.querySelector(".hamburger-menu i");
+
+  hamburgerbtnContainer.addEventListener("click", function () {
+    console.log("hello");
+    hamburgBtn.classList.toggle("fa-xmark");
+    hamburgBtn.classList.toggle("fa-bars");
+  });
 });
 
 // For Tab2 NFT
@@ -122,6 +145,7 @@ function copyme() {
   var copyelement = document.getElementById("myTooltip");
   copyelement.innerHTML = "Copied!";
 }
+
 function outFunc() {
   var copyelement = document.getElementById("myTooltip");
   copyelement.innerHTML = "copy!";
@@ -129,3 +153,23 @@ function outFunc() {
 var btn = document.getElementById("btn");
 var clipboard = new ClipboardJS(btn);
 // / For sdk NPM btn script end*************************************//
+
+// for Mobile view only Hamburger
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+// $(document).ready(function () {
+//   $(window).resize(function () {
+//     if ($(window).width() < 450) {
+//       $(".cards-slick").slick({});
+//     } else {
+//       $(".cards-slick").unslick();
+//     }
+//   });
+// });
